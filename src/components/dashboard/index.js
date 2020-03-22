@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Notifications from './Notifications';
 import ProjectList from '../projects/ProjectList';
 
 function Dashboard() {
-  // const [] = useState()
   return (
     <div className='dashboard container'>
       <div className='row'>
