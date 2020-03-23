@@ -16,7 +16,7 @@ const SignIn = () => {
   };
   return (
     <div className='container'>
-      <form onSubmit={handleSubmit} className='white'>
+      <form onSubmit={handleSubmit}>
         <h5 className='green-text text-darken-3'>Sign In</h5>
         <div className='input-field'>
           <label htmlFor='email'>Email</label>
