@@ -22,14 +22,10 @@ const initialState = {
 };
 
 const projectReducer = (state = initialState, action) => {
-  //   switch (action.type) {
-  //     case '':
-  //       return {};
-  //     case '':
-  //       return {};
-  //     default:
-  //       return state;
-  //   }
+  switch (action.type) {
+    case 'ADD_PROJECT':
+      console.log('project create', action.project);
+  }
   return state;
 };
 
