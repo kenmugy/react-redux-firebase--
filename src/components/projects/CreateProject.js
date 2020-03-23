@@ -16,9 +16,9 @@ const CreateProject = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='container fm'>
       <h4 className='green-text text-darken-3'>create new project</h4>
-      <form action='' onSubmit={handleSubmit}>
+      <form action='' onSubmit={handleSubmit} className='white'>
         <div className='input-field'>
           <label htmlFor='title'>Title</label>
           <input

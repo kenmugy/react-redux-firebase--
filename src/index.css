@@ -1,5 +1,11 @@
 body {
   background: url(/images/great.jpg) no-repeat;
   background-size: 100%;
-  background-position: top;
+  background-position: center;
+  background-color: #faef73;
+}
+
+form {
+  padding: 20px;
+  border-radius: 8px;
 }
